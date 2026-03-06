@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MaxTronyx SOC Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="layout">
+
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+<div class="brand">
+<h1>MaxTronyx</h1>
+<p>SOC Dashboard</p>
+</div>
+
+<nav class="nav">
+
+<a href="#overview" class="nav-link active">Overview</a>
+<a href="#agents" class="nav-link">Agents</a>
+<a href="#host-risk" class="nav-link">Host Risk</a>
+<a href="#incidents" class="nav-link">Incidents</a>
+<a href="#timeline" class="nav-link">Attack Chain</a>
+<a href="#actions" class="nav-link">Action Log</a>
+
+</nav>
+
+<div class="sidebar-footer">
+<p>Mini EDR Prototype</p>
+</div>
+
+</aside>
+
+
+<!-- MAIN -->
+
+<main class="main">
+
+
+<!-- TOP BAR -->
+
+<header class="topbar">
+
+<div>
+<h2>Security Operations Center</h2>
+<p>Real-time visibility into agents, incidents, timeline and response actions</p>
+</div>
+
+<button id="refreshBtn" class="refresh-btn">
+Refresh Data
+</button>
+
+</header>
+
+
+<!-- OVERVIEW STATS -->
+
+<section id="overview" class="cards">
+
+<div class="card stat-card">
+<span class="label">Total Agents</span>
+<h3 id="totalAgents">0</h3>
+</div>
+
+<div class="card stat-card">
+<span class="label">Online Agents</span>
+<h3 id="onlineAgents">0</h3>
+</div>
+
+<div class="card stat-card">
+<span class="label">Total Incidents</span>
+<h3 id="totalIncidents">0</h3>
+</div>
+
+<div class="card stat-card critical-card">
+<span class="label">Critical Incidents</span>
+<h3 id="criticalIncidents">0</h3>
+</div>
+
+</section>
+
+
+
+<!-- AGENTS -->
+
+<section id="agents" class="panel">
+
+<div class="panel-header">
+<h3>Registered Agents</h3>
+<span id="agentsCountBadge" class="badge neutral">0 agents</span>
+</div>
+
+<div class="table-wrapper">
+
+<table>
+
+<thead>
+<tr>
+
+<th>Hostname</th>
+<th>IP Address</th>
+<th>Status</th>
+<th>Isolation</th>
+<th>Risk</th>
+<th>Created</th>
+<th>Last Seen</th>
+
+</tr>
+</thead>
+
+<tbody id="agentsTableBody"></tbody>
+
+</table>
+
+</div>
+
+</section>
+
+
+
+<!-- HOST RISK -->
+
+<section id="host-risk" class="panel">
+
+<div class="panel-header">
+<h3>Host Risk Scores</h3>
+<span id="hostRiskCountBadge" class="badge neutral">0 hosts</span>
+</div>
+
+<div class="table-wrapper">
+
+<table>
+
+<thead>
+
+<tr>
+<th>Host</th>
+<th>Risk Score</th>
+<th>Band</th>
+<th>Open Incidents</th>
+<th>Critical Incidents</th>
+<th>Latest Activity</th>
+</tr>
+
+</thead>
+
+<tbody id="hostRiskTableBody"></tbody>
+
+</table>
+
+</div>
+
+</section>
+
+
+
+<!-- INCIDENTS -->
+
+<section id="incidents" class="panel">
+
+<div class="panel-header">
+<h3>Recent Incidents</h3>
+<span id="incidentsCountBadge" class="badge neutral">0 incidents</span>
+</div>
+
+<div class="table-wrapper">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Title</th>
+<th>Severity</th>
+<th>Status</th>
+<th>MITRE</th>
+<th>Source</th>
+<th>Created</th>
+<th>Context</th>
+<th>Actions</th>
+
+</tr>
+
+</thead>
+
+<tbody id="incidentsTableBody"></tbody>
+
+</table>
+
+</div>
+
+</section>
+
+
+
+<!-- ATTACK TIMELINE -->
+
+<section id="timeline" class="panel">
+
+<div class="panel-header">
+<h3>Attack Chain Timeline</h3>
+<span id="timelineCountBadge" class="badge neutral">0 events</span>
+</div>
+
+<div id="timelineContainer" class="timeline-list"></div>
+
+</section>
+
+
+
+<!-- LIVE SECURITY FEED -->
+
+<section class="panel">
+
+<div class="panel-header">
+<h3>Live Security Feed</h3>
+</div>
+
+<div id="liveFeed" class="timeline-list"></div>
+
+</section>
+
+
+
+<!-- RESPONSE ACTIONS -->
+
+<section id="actions" class="panel">
+
+<div class="panel-header">
+<h3>Response Action Log</h3>
+<span id="actionsCountBadge" class="badge neutral">0 actions</span>
+</div>
+
+<div class="table-wrapper">
+
+<table>
+
+<thead>
+
+<tr>
+<th>Type</th>
+<th>Hostname</th>
+<th>Reason</th>
+<th>Created</th>
+</tr>
+
+</thead>
+
+<tbody id="actionsTableBody"></tbody>
+
+</table>
+
+</div>
+
+</section>
+
+
+</main>
+
+</div>
+
+
+
+<!-- INCIDENT MODAL -->
+
+<div id="incidentModal" class="modal hidden">
+
+<div class="modal-content">
+
+<span id="closeModal" class="modal-close">&times;</span>
+
+<h2>Incident Investigation</h2>
+
+<div class="incident-details">
+
+<p><strong>Title:</strong> <span id="modalTitle"></span></p>
+<p><strong>Severity:</strong> <span id="modalSeverity"></span></p>
+<p><strong>Status:</strong> <span id="modalStatus"></span></p>
+<p><strong>MITRE:</strong> <span id="modalMitre"></span></p>
+<p><strong>Hostname:</strong> <span id="modalHostname"></span></p>
+<p><strong>Created:</strong> <span id="modalCreated"></span></p>
+
+</div>
+
+<h3>Event Context</h3>
+
+<pre id="modalContext"></pre>
+
+<h3>Timeline Events</h3>
+
+<div id="modalTimeline" class="timeline-list"></div>
+
+</div>
+
+</div>
+
+
+
+<script src="app.js"></script>
+
+</body>
+</html>

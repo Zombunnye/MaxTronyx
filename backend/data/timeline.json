@@ -1,0 +1,473 @@
+[
+  {
+    "id": "024ce9af-cc50-44e5-8e21-7602e6c0aac3",
+    "hostname": "Maxtronyx",
+    "type": "ransomware",
+    "timestamp": "2026-03-06T12:52:31.419Z",
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "47b40c74-76ee-44ec-8cb8-6e67ca3ec628",
+    "hostname": "Maxtronyx",
+    "type": "powershell -enc aGVsbG8=",
+    "timestamp": "2026-03-06T12:52:31.421Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "15459756-a4d1-49e5-837e-17a5bd15157d",
+    "hostname": "Maxtronyx",
+    "type": "xmrig.exe",
+    "timestamp": "2026-03-06T12:52:31.424Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "2910cf92-8ac2-4bcd-9ef5-b4ac91940594",
+    "hostname": "Maxtronyx",
+    "type": "event",
+    "timestamp": "2026-03-06T12:52:31.426Z",
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "b8d30d4d-e493-44f4-9597-0397091fd9c5",
+    "hostname": "Maxtronyx",
+    "type": "ransomware",
+    "timestamp": "2026-03-06T13:13:10.580Z",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "46f7181a-d646-4bda-8e04-a308503b0c95",
+    "hostname": "Maxtronyx",
+    "type": "powershell -enc aGVsbG8=",
+    "timestamp": "2026-03-06T13:13:10.582Z",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "1c5d7f50-eb34-4df4-9536-400f1539b233",
+    "hostname": "Maxtronyx",
+    "type": "xmrig.exe",
+    "timestamp": "2026-03-06T13:13:10.584Z",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "5cff3c9a-471c-4702-bd43-d988aa4f82eb",
+    "hostname": "Maxtronyx",
+    "type": "event",
+    "timestamp": "2026-03-06T13:13:10.586Z",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "3bd21ff1-b375-4d38-a8e6-c8eaf979b1d0",
+    "hostname": "Maxtronyx",
+    "type": "ransomware",
+    "timestamp": "2026-03-06T13:16:05.236Z",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "3526ca5a-5792-4bcd-9244-2572bf2636a2",
+    "hostname": "Maxtronyx",
+    "type": "powershell -enc aGVsbG8=",
+    "timestamp": "2026-03-06T13:16:05.239Z",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "ff8abb9a-28db-49d4-8aab-f31a20c91762",
+    "hostname": "Maxtronyx",
+    "type": "xmrig.exe",
+    "timestamp": "2026-03-06T13:16:05.241Z",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "42a14798-2bca-4d2a-bbea-0f56704ee38f",
+    "hostname": "Maxtronyx",
+    "type": "event",
+    "timestamp": "2026-03-06T13:16:05.244Z",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "8b56114a-dbfc-47fb-bfbd-a627c30148fc",
+    "hostname": "Maxtronyx",
+    "type": "ransomware",
+    "timestamp": "2026-03-06T14:27:15.474Z",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "f5a2602e-c078-4c38-ae8b-9be82bcde989",
+    "hostname": "Maxtronyx",
+    "type": "auto-response",
+    "timestamp": "2026-03-06T14:27:15.475Z",
+    "context": {
+      "action": "device_isolated",
+      "reason": "Auto-response triggered by RANSOMWARE_FILE_ENCRYPTION",
+      "incident_id": "5ad01b77-08c0-4f86-9d5a-7a93440a01eb"
+    }
+  },
+  {
+    "id": "dd0e7c0d-4e49-4485-bebc-c25fdf520a95",
+    "hostname": "Maxtronyx",
+    "type": "powershell -enc aGVsbG8=",
+    "timestamp": "2026-03-06T14:27:15.477Z",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "cc86ed9b-c1b7-4444-9032-c4ea04de0941",
+    "hostname": "Maxtronyx",
+    "type": "xmrig.exe",
+    "timestamp": "2026-03-06T14:27:15.479Z",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "08b8e5de-f244-4114-8ddf-93121c4a4c83",
+    "hostname": "Maxtronyx",
+    "type": "auto-response",
+    "timestamp": "2026-03-06T14:27:15.480Z",
+    "context": {
+      "action": "device_isolated",
+      "reason": "Auto-response triggered by CRYPTO_MINER",
+      "incident_id": "2d7c1268-e777-4f16-9879-0bd6db7da4c6"
+    }
+  },
+  {
+    "id": "8f124153-2d59-4510-801e-965146ab51b0",
+    "hostname": "Maxtronyx",
+    "type": "event",
+    "timestamp": "2026-03-06T14:27:15.482Z",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "1cdd9e06-1920-4b45-be19-c807da92bac4",
+    "hostname": "Maxtronyx",
+    "type": "ransomware",
+    "timestamp": "2026-03-06T14:36:23.910Z",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "b27d3ae8-4227-4360-a75d-2f1ea3038d7e",
+    "hostname": "Maxtronyx",
+    "type": "auto-response",
+    "timestamp": "2026-03-06T14:36:23.911Z",
+    "context": {
+      "action": "device_isolated",
+      "reason": "Auto-response triggered by RANSOMWARE_FILE_ENCRYPTION",
+      "incident_id": "5ef685d4-82a7-4744-9dbf-e12e69390a28"
+    }
+  },
+  {
+    "id": "c48c674f-6632-4c88-8762-5f3eaaa2b3be",
+    "hostname": "Maxtronyx",
+    "type": "powershell -enc aGVsbG8=",
+    "timestamp": "2026-03-06T14:36:23.914Z",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "162b2cf5-4555-46b2-bd6a-479037042c0f",
+    "hostname": "Maxtronyx",
+    "type": "xmrig.exe",
+    "timestamp": "2026-03-06T14:36:23.916Z",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "f4ee627c-0d4a-4d4a-98a3-8e9203e44721",
+    "hostname": "Maxtronyx",
+    "type": "auto-response",
+    "timestamp": "2026-03-06T14:36:23.917Z",
+    "context": {
+      "action": "device_isolated",
+      "reason": "Auto-response triggered by CRYPTO_MINER",
+      "incident_id": "bd3507a2-39e5-400a-b4de-79ccab0d977e"
+    }
+  },
+  {
+    "id": "9c262497-1e51-49f0-a162-bf3661a64695",
+    "hostname": "Maxtronyx",
+    "type": "event",
+    "timestamp": "2026-03-06T14:36:23.919Z",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "f26618f8-8cd9-4f7b-b7e2-993cd1840ea7",
+    "hostname": "Maxtronyx",
+    "type": "ransomware",
+    "timestamp": "2026-03-06T14:55:47.016Z",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "e82f5748-1db8-49c7-acf0-6bd8f02196d4",
+    "hostname": "Maxtronyx",
+    "type": "auto-response",
+    "timestamp": "2026-03-06T14:55:47.018Z",
+    "context": {
+      "action": "device_isolated",
+      "reason": "Auto-response triggered by RANSOMWARE_FILE_ENCRYPTION",
+      "incident_id": "300578b6-de19-4b01-b54a-0dac8c639e56"
+    }
+  },
+  {
+    "id": "882a7999-7b34-4c12-8193-37848fbacfd4",
+    "hostname": "Maxtronyx",
+    "type": "powershell -enc aGVsbG8=",
+    "timestamp": "2026-03-06T14:55:47.020Z",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "ee7b5e7c-9a7e-415e-8523-f16dc6e12258",
+    "hostname": "Maxtronyx",
+    "type": "xmrig.exe",
+    "timestamp": "2026-03-06T14:55:47.022Z",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "d0586765-64b0-470b-b564-90482b2c59e9",
+    "hostname": "Maxtronyx",
+    "type": "auto-response",
+    "timestamp": "2026-03-06T14:55:47.023Z",
+    "context": {
+      "action": "device_isolated",
+      "reason": "Auto-response triggered by CRYPTO_MINER",
+      "incident_id": "2f4a9eaf-a941-477c-ab80-5dbc67621bff"
+    }
+  },
+  {
+    "id": "c79a954d-b236-4e60-9ff1-fca8ba1d4cee",
+    "hostname": "Maxtronyx",
+    "type": "event",
+    "timestamp": "2026-03-06T14:55:47.025Z",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "3cd55a40-a522-4401-9f8a-4fce41683be1",
+    "hostname": "Maxtronyx",
+    "type": "ransomware",
+    "timestamp": "2026-03-06T15:42:28.795Z",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "b166a5a6-6957-40ff-ae09-7f5c6dad189f",
+    "hostname": "Maxtronyx",
+    "type": "auto-response",
+    "timestamp": "2026-03-06T15:42:28.796Z",
+    "context": {
+      "action": "device_isolated",
+      "reason": "Auto-response triggered by RANSOMWARE_FILE_ENCRYPTION",
+      "incident_id": "19d922d8-40c2-42ba-bed2-52b13a4b7e2f"
+    }
+  },
+  {
+    "id": "08277fe3-c399-4392-8f9a-6ba90f2e707f",
+    "hostname": "Maxtronyx",
+    "type": "powershell -enc aGVsbG8=",
+    "timestamp": "2026-03-06T15:42:28.798Z",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "ab85405c-e512-4ec1-ab8b-b8785a2c8305",
+    "hostname": "Maxtronyx",
+    "type": "xmrig.exe",
+    "timestamp": "2026-03-06T15:42:28.800Z",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "08ab157f-2627-4328-91db-c73d7bd59ca2",
+    "hostname": "Maxtronyx",
+    "type": "auto-response",
+    "timestamp": "2026-03-06T15:42:28.801Z",
+    "context": {
+      "action": "device_isolated",
+      "reason": "Auto-response triggered by CRYPTO_MINER",
+      "incident_id": "80da6a18-8f8c-47d8-8771-d4cec55a5e96"
+    }
+  },
+  {
+    "id": "e972285e-6e1f-4a85-8313-1e489e7b3d4c",
+    "hostname": "Maxtronyx",
+    "type": "event",
+    "timestamp": "2026-03-06T15:42:28.803Z",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  }
+]

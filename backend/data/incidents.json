@@ -1,0 +1,751 @@
+[
+  {
+    "id": "1f8efc33-eaa5-4d91-b934-da8195226094",
+    "title": "Possible ransomware detected",
+    "severity": "critical",
+    "created_at": "2026-03-06T11:43:05.646Z",
+    "context": {
+      "files_changed": 200,
+      "type": "ransomware"
+    },
+    "status": "closed",
+    "updated_at": "2026-03-06T12:25:43.632Z"
+  },
+  {
+    "id": "77bc118f-92a1-4763-b8bd-1c5c6d48d58b",
+    "title": "Possible ransomware detected",
+    "severity": "critical",
+    "status": "investigating",
+    "source": "endpoint-agent",
+    "created_at": "2026-03-06T12:01:05.226Z",
+    "context": {
+      "files_changed": 200,
+      "type": "ransomware"
+    },
+    "updated_at": "2026-03-06T12:25:12.608Z"
+  },
+  {
+    "id": "281ff11b-de33-4111-aafd-8c5f3ea195f0",
+    "title": "Possible ransomware detected",
+    "severity": "critical",
+    "status": "closed",
+    "source": "endpoint-agent",
+    "created_at": "2026-03-06T12:12:00.880Z",
+    "context": {
+      "files_changed": 200,
+      "type": "ransomware"
+    },
+    "updated_at": "2026-03-06T12:25:08.100Z"
+  },
+  {
+    "id": "83a2cb8c-28df-482c-ae9d-a86b4b49ac94",
+    "title": "Possible ransomware detected",
+    "severity": "critical",
+    "status": "closed",
+    "source": "endpoint-agent",
+    "created_at": "2026-03-06T12:12:26.097Z",
+    "context": {
+      "files_changed": 200,
+      "type": "ransomware"
+    },
+    "updated_at": "2026-03-06T12:25:09.776Z"
+  },
+  {
+    "id": "48df87f1-4ee0-4d2a-95d1-777aeb697f12",
+    "title": "Possible ransomware activity detected",
+    "severity": "critical",
+    "rule": "RANSOMWARE_FILE_ENCRYPTION",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:42:52.419Z",
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "9530ee71-31ad-433c-96ba-1dbb951b62bb",
+    "title": "Suspicious PowerShell execution",
+    "severity": "high",
+    "rule": "POWERSHELL_ABUSE",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:42:52.421Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "5d81e74f-22f2-43c0-a642-02f8b6cac525",
+    "title": "Possible crypto miner detected",
+    "severity": "high",
+    "rule": "CRYPTO_MINER",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:42:52.424Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "15d6271f-9a4c-4dc3-ba0b-63d41cfcdfbb",
+    "title": "Multiple failed login attempts",
+    "severity": "medium",
+    "rule": "BRUTE_FORCE",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:42:52.426Z",
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "42071232-e4da-446a-991f-c6a267899cea",
+    "title": "Possible ransomware activity detected",
+    "severity": "critical",
+    "rule": "RANSOMWARE_FILE_ENCRYPTION",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:43:18.098Z",
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "fedd79f8-4628-4124-8237-50fb44715ad4",
+    "title": "Suspicious PowerShell execution",
+    "severity": "high",
+    "rule": "POWERSHELL_ABUSE",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:43:18.101Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "e833fac5-202e-4ccd-ba87-6eb71f69e22a",
+    "title": "Possible crypto miner detected",
+    "severity": "high",
+    "rule": "CRYPTO_MINER",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:43:18.103Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "d8cd452d-c202-42ea-afac-45c94cd8272f",
+    "title": "Multiple failed login attempts",
+    "severity": "medium",
+    "rule": "BRUTE_FORCE",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:43:18.105Z",
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "388bfa6b-43f1-40ee-b027-c6701bda88ce",
+    "title": "Possible ransomware activity detected",
+    "severity": "critical",
+    "rule": "RANSOMWARE_FILE_ENCRYPTION",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:52:31.419Z",
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "fca0a905-34ed-40ee-b022-5201ad18983e",
+    "title": "Suspicious PowerShell execution",
+    "severity": "high",
+    "rule": "POWERSHELL_ABUSE",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:52:31.422Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "a994d47a-e90a-45ed-a972-ba132b5a2a95",
+    "title": "Possible crypto miner detected",
+    "severity": "high",
+    "rule": "CRYPTO_MINER",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:52:31.424Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "1c83f686-7746-4353-9652-8210bfb352e4",
+    "title": "Multiple failed login attempts",
+    "severity": "medium",
+    "rule": "BRUTE_FORCE",
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T12:52:31.426Z",
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "04cccdd2-f3ff-4cbd-89ad-81fdfb462a84",
+    "title": "Possible ransomware activity detected",
+    "severity": "critical",
+    "rule": "RANSOMWARE_FILE_ENCRYPTION",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T13:13:10.580Z",
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "c1a8c1ac-dc8f-45ca-8146-8a247f4205f6",
+    "title": "Suspicious PowerShell execution",
+    "severity": "high",
+    "rule": "POWERSHELL_ABUSE",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T13:13:10.583Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "49857a98-ca89-47de-8715-6d0c827efae9",
+    "title": "Possible crypto miner detected",
+    "severity": "high",
+    "rule": "CRYPTO_MINER",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T13:13:10.585Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "bc1b0a45-0176-4a8c-8df0-f9b941b2363e",
+    "title": "Multiple failed login attempts",
+    "severity": "medium",
+    "rule": "BRUTE_FORCE",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T13:13:10.587Z",
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "7d0943fb-145e-455a-8ad9-c596591f76f8",
+    "title": "Possible ransomware activity detected",
+    "severity": "critical",
+    "rule": "RANSOMWARE_FILE_ENCRYPTION",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T13:16:05.237Z",
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "a91b09d1-1180-48cf-97ef-a3768d826229",
+    "title": "Suspicious PowerShell execution",
+    "severity": "high",
+    "rule": "POWERSHELL_ABUSE",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T13:16:05.239Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "00d83aff-1dbc-4bb5-a7c5-3fd64a3e5025",
+    "title": "Possible crypto miner detected",
+    "severity": "high",
+    "rule": "CRYPTO_MINER",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "created_at": "2026-03-06T13:16:05.242Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "41d41bef-8dd0-4d5d-9a0f-79ba7594fcca",
+    "title": "Multiple failed login attempts",
+    "severity": "medium",
+    "rule": "BRUTE_FORCE",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "closed",
+    "created_at": "2026-03-06T13:16:05.244Z",
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    },
+    "updated_at": "2026-03-06T13:18:47.214Z"
+  },
+  {
+    "id": "5ad01b77-08c0-4f86-9d5a-7a93440a01eb",
+    "title": "Possible ransomware activity detected",
+    "severity": "critical",
+    "rule": "RANSOMWARE_FILE_ENCRYPTION",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "investigating",
+    "auto_response": {
+      "recommended": true,
+      "action": "isolate_device",
+      "executed": true,
+      "executed_at": "2026-03-06T14:27:15.474Z",
+      "result": "device_isolated"
+    },
+    "created_at": "2026-03-06T14:27:15.474Z",
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "201bdbb6-4892-4088-aad4-f795e5a7e8ac",
+    "title": "Suspicious PowerShell execution",
+    "severity": "high",
+    "rule": "POWERSHELL_ABUSE",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "auto_response": {
+      "recommended": false,
+      "action": "monitor"
+    },
+    "created_at": "2026-03-06T14:27:15.477Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "2d7c1268-e777-4f16-9879-0bd6db7da4c6",
+    "title": "Possible crypto miner detected",
+    "severity": "high",
+    "rule": "CRYPTO_MINER",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "investigating",
+    "auto_response": {
+      "recommended": true,
+      "action": "isolate_device",
+      "executed": true,
+      "executed_at": "2026-03-06T14:27:15.480Z",
+      "result": "device_isolated"
+    },
+    "created_at": "2026-03-06T14:27:15.479Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "5482ab56-1cd9-4ca1-928c-ec5f0a6316af",
+    "title": "Multiple failed login attempts",
+    "severity": "medium",
+    "rule": "BRUTE_FORCE",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "auto_response": {
+      "recommended": false,
+      "action": "investigate"
+    },
+    "created_at": "2026-03-06T14:27:15.482Z",
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "5ef685d4-82a7-4744-9dbf-e12e69390a28",
+    "title": "Possible ransomware activity detected",
+    "severity": "critical",
+    "rule": "RANSOMWARE_FILE_ENCRYPTION",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "investigating",
+    "auto_response": {
+      "recommended": true,
+      "action": "isolate_device",
+      "executed": true,
+      "executed_at": "2026-03-06T14:36:23.911Z",
+      "result": "device_isolated"
+    },
+    "created_at": "2026-03-06T14:36:23.910Z",
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "f094969b-e9e3-4e04-80be-9d1b67438fcd",
+    "title": "Suspicious PowerShell execution",
+    "severity": "high",
+    "rule": "POWERSHELL_ABUSE",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "auto_response": {
+      "recommended": false,
+      "action": "monitor"
+    },
+    "created_at": "2026-03-06T14:36:23.914Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "bd3507a2-39e5-400a-b4de-79ccab0d977e",
+    "title": "Possible crypto miner detected",
+    "severity": "high",
+    "rule": "CRYPTO_MINER",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "investigating",
+    "auto_response": {
+      "recommended": true,
+      "action": "isolate_device",
+      "executed": true,
+      "executed_at": "2026-03-06T14:36:23.916Z",
+      "result": "device_isolated"
+    },
+    "created_at": "2026-03-06T14:36:23.916Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "5b28c085-a35a-4e0a-91d0-d2352ff1dcec",
+    "title": "Multiple failed login attempts",
+    "severity": "medium",
+    "rule": "BRUTE_FORCE",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "auto_response": {
+      "recommended": false,
+      "action": "investigate"
+    },
+    "created_at": "2026-03-06T14:36:23.919Z",
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "300578b6-de19-4b01-b54a-0dac8c639e56",
+    "title": "Possible ransomware activity detected",
+    "severity": "critical",
+    "rule": "RANSOMWARE_FILE_ENCRYPTION",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "investigating",
+    "auto_response": {
+      "recommended": true,
+      "action": "isolate_device",
+      "executed": true,
+      "executed_at": "2026-03-06T14:55:47.017Z",
+      "result": "device_isolated"
+    },
+    "created_at": "2026-03-06T14:55:47.016Z",
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "90e1951b-0ba1-499c-8ce9-149460c95a2c",
+    "title": "Suspicious PowerShell execution",
+    "severity": "high",
+    "rule": "POWERSHELL_ABUSE",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "auto_response": {
+      "recommended": false,
+      "action": "monitor"
+    },
+    "created_at": "2026-03-06T14:55:47.020Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "2f4a9eaf-a941-477c-ab80-5dbc67621bff",
+    "title": "Possible crypto miner detected",
+    "severity": "high",
+    "rule": "CRYPTO_MINER",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "investigating",
+    "auto_response": {
+      "recommended": true,
+      "action": "isolate_device",
+      "executed": true,
+      "executed_at": "2026-03-06T14:55:47.023Z",
+      "result": "device_isolated"
+    },
+    "created_at": "2026-03-06T14:55:47.023Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "f97c7afb-c95d-4a4d-9fbd-9057c4f5c5e4",
+    "title": "Multiple failed login attempts",
+    "severity": "medium",
+    "rule": "BRUTE_FORCE",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "auto_response": {
+      "recommended": false,
+      "action": "investigate"
+    },
+    "created_at": "2026-03-06T14:55:47.026Z",
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  },
+  {
+    "id": "19d922d8-40c2-42ba-bed2-52b13a4b7e2f",
+    "title": "Possible ransomware activity detected",
+    "severity": "critical",
+    "rule": "RANSOMWARE_FILE_ENCRYPTION",
+    "mitre": {
+      "technique": "T1486",
+      "name": "Data Encrypted for Impact"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "investigating",
+    "auto_response": {
+      "recommended": true,
+      "action": "isolate_device",
+      "executed": true,
+      "executed_at": "2026-03-06T15:42:28.795Z",
+      "result": "device_isolated"
+    },
+    "created_at": "2026-03-06T15:42:28.795Z",
+    "context": {
+      "files_changed": 200,
+      "hostname": "Maxtronyx",
+      "type": "ransomware"
+    }
+  },
+  {
+    "id": "94515e56-c63b-43a9-9a64-35db281264b1",
+    "title": "Suspicious PowerShell execution",
+    "severity": "high",
+    "rule": "POWERSHELL_ABUSE",
+    "mitre": {
+      "technique": "T1059",
+      "name": "Command and Scripting Interpreter"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "auto_response": {
+      "recommended": false,
+      "action": "monitor"
+    },
+    "created_at": "2026-03-06T15:42:28.798Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "powershell -enc aGVsbG8="
+    }
+  },
+  {
+    "id": "80da6a18-8f8c-47d8-8771-d4cec55a5e96",
+    "title": "Possible crypto miner detected",
+    "severity": "high",
+    "rule": "CRYPTO_MINER",
+    "mitre": {
+      "technique": "T1496",
+      "name": "Resource Hijacking"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "investigating",
+    "auto_response": {
+      "recommended": true,
+      "action": "isolate_device",
+      "executed": true,
+      "executed_at": "2026-03-06T15:42:28.800Z",
+      "result": "device_isolated"
+    },
+    "created_at": "2026-03-06T15:42:28.800Z",
+    "context": {
+      "hostname": "Maxtronyx",
+      "process": "xmrig.exe"
+    }
+  },
+  {
+    "id": "cd138f65-e749-412a-bada-31c7c928103c",
+    "title": "Multiple failed login attempts",
+    "severity": "medium",
+    "rule": "BRUTE_FORCE",
+    "mitre": {
+      "technique": "T1110",
+      "name": "Brute Force"
+    },
+    "source": "endpoint-agent",
+    "hostname": "Maxtronyx",
+    "status": "open",
+    "auto_response": {
+      "recommended": false,
+      "action": "investigate"
+    },
+    "created_at": "2026-03-06T15:42:28.803Z",
+    "context": {
+      "failed_logins": 20,
+      "hostname": "Maxtronyx"
+    }
+  }
+]

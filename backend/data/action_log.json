@@ -1,0 +1,73 @@
+[
+  {
+    "id": "261a4c3d-8003-44e7-9ffe-85d45f939b6c",
+    "type": "isolate_device",
+    "hostname": "Maxtronyx",
+    "reason": "Manual isolation from MaxTronyx SOC Dashboard",
+    "created_at": "2026-03-06T12:25:14.700Z"
+  },
+  {
+    "id": "9ce45342-27cb-4f42-a067-9a5e74c130c7",
+    "type": "auto_isolate_device",
+    "hostname": "Maxtronyx",
+    "reason": "Auto-response triggered by RANSOMWARE_FILE_ENCRYPTION",
+    "incident_id": "5ad01b77-08c0-4f86-9d5a-7a93440a01eb",
+    "created_at": "2026-03-06T14:27:15.474Z"
+  },
+  {
+    "id": "25adb9f9-de67-4bbb-8454-567a988de120",
+    "type": "auto_isolate_device",
+    "hostname": "Maxtronyx",
+    "reason": "Auto-response triggered by CRYPTO_MINER",
+    "incident_id": "2d7c1268-e777-4f16-9879-0bd6db7da4c6",
+    "created_at": "2026-03-06T14:27:15.480Z"
+  },
+  {
+    "id": "2d80dbf3-c426-4b29-95ea-d11e27c776da",
+    "type": "auto_isolate_device",
+    "hostname": "Maxtronyx",
+    "reason": "Auto-response triggered by RANSOMWARE_FILE_ENCRYPTION",
+    "incident_id": "5ef685d4-82a7-4744-9dbf-e12e69390a28",
+    "created_at": "2026-03-06T14:36:23.911Z"
+  },
+  {
+    "id": "3ea10eec-b13f-4391-914f-15b1aa916dc7",
+    "type": "auto_isolate_device",
+    "hostname": "Maxtronyx",
+    "reason": "Auto-response triggered by CRYPTO_MINER",
+    "incident_id": "bd3507a2-39e5-400a-b4de-79ccab0d977e",
+    "created_at": "2026-03-06T14:36:23.916Z"
+  },
+  {
+    "id": "f409ce51-dc76-4dd2-8e82-4d358831cfcf",
+    "type": "auto_isolate_device",
+    "hostname": "Maxtronyx",
+    "reason": "Auto-response triggered by RANSOMWARE_FILE_ENCRYPTION",
+    "incident_id": "300578b6-de19-4b01-b54a-0dac8c639e56",
+    "created_at": "2026-03-06T14:55:47.017Z"
+  },
+  {
+    "id": "74216c67-867c-4072-9e58-d6949fa69312",
+    "type": "auto_isolate_device",
+    "hostname": "Maxtronyx",
+    "reason": "Auto-response triggered by CRYPTO_MINER",
+    "incident_id": "2f4a9eaf-a941-477c-ab80-5dbc67621bff",
+    "created_at": "2026-03-06T14:55:47.023Z"
+  },
+  {
+    "id": "6e44fea3-0435-48de-b5d5-a225c62b9c60",
+    "type": "auto_isolate_device",
+    "hostname": "Maxtronyx",
+    "reason": "Auto-response triggered by RANSOMWARE_FILE_ENCRYPTION",
+    "incident_id": "19d922d8-40c2-42ba-bed2-52b13a4b7e2f",
+    "created_at": "2026-03-06T15:42:28.795Z"
+  },
+  {
+    "id": "c485f26c-b7a7-499a-aac2-637db71de407",
+    "type": "auto_isolate_device",
+    "hostname": "Maxtronyx",
+    "reason": "Auto-response triggered by CRYPTO_MINER",
+    "incident_id": "80da6a18-8f8c-47d8-8771-d4cec55a5e96",
+    "created_at": "2026-03-06T15:42:28.800Z"
+  }
+]
